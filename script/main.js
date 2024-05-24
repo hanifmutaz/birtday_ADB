@@ -16,10 +16,10 @@ const fetchData = () => {
         }
 
         // Check if the iteration is over
-        // Run amimation if so
-        if ( dataArr.length === dataArr.indexOf(customData) + 1 ) {
+        // Run animation if so
+        if (dataArr.length === dataArr.indexOf(customData) + 1) {
           animationTimeline();
-        } 
+        }
       });
     });
 };
@@ -212,7 +212,7 @@ const animationTimeline = () => {
       ".lydia-dp",
       0.5,
       {
-        scale: 3.5,
+        scale: 0.5,
         opacity: 0,
         x: 25,
         y: -25,

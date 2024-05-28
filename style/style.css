@@ -56,7 +56,7 @@ body {
 }
 
 .three {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .four .text-box {
@@ -120,7 +120,7 @@ body {
 
 .six img {
   display: inline-block;
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
